@@ -1,0 +1,312 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 200%;
+    width: 100%;
+    align-items: center;
+    margin: 0%;
+    background-color: #F2F2F2;
+    flex-wrap: nowrap;
+    flex-shrink: 1;
+}
+
+.whiteFont{
+    color: #FFFFFF;
+}
+
+.grayFont{
+    color: #968F89;
+}
+
+#BgImage{
+    display: flex;
+    position: relative;
+    height: 568px;
+    width: 1535px;
+}
+
+#NavigShadow{
+    position:absolute;
+    width: 100%;
+    height: 65px;
+    box-shadow: 0px 4px 10px;
+}
+
+#NavigationBar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    margin-top: 10px;
+    height: 45px;
+    gap: 10px;
+}
+
+#Logo{
+    height: 38px;
+    max-width: 155px;
+    max-height: 49px;
+    margin-right: 180px;
+    margin-left: 170px;
+}
+
+#KeyNav{
+    display: flex;
+    gap: 10px;
+    font-size: smaller;
+}
+#KeyIconNav{
+    width: 32px;
+    height: 33px;
+}
+
+.dotted_gray_border{
+    border-style: dotted;
+    border-color: #7B7468;
+    border-width: 2px;
+    border-right: none;
+    border-bottom: none;
+    border-top: none;
+}
+
+#BizNavig{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 45px;
+    width: 200px;
+    box-shadow: 0px 1px 4px #3e3c39;
+}
+
+#YellowSuitcase{
+    display: flex;
+    width:154px;
+    height: 45px;
+    gap: 5px;
+    justify-content: center;
+}
+
+#LogButton{
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to right, #52B1FE, #075BF3);
+    border-style: solid;
+    border-color:#52B1FE;
+    border-width: 0.1px;
+    border-radius: 3px;
+    width: 213px;
+    height: 44px;
+    gap: 10px;
+}
+
+.translucentwhite{
+    display: flex;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 3px;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+#IconBar{
+    display: flex;
+    background-color: white;
+    height: 100px;
+    width: 930px;
+    position:absolute;
+    margin-top: 90px;
+    border-radius: 10px;
+    justify-content: center;
+    gap:40px;
+    color: #4A4A4A;
+    box-shadow: 0px 2px 20px rgb(0, 0, 0, 10%);
+}
+
+.IconBarIcon{
+    display: flex;
+    flex-direction: column;
+    width: 55px;
+    height: 95px;
+    justify-content: center;
+    align-items: center;
+}
+
+#MainBlock{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    position:absolute;
+    width: 1200px;
+    height: 333px;
+    margin-top: 130px;
+}
+
+#Layer1{
+    position:absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top:200px;
+    gap: 560px;
+    color: #4A4A4A;
+}
+
+#Layer1Left{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    margin-left: 20px;
+}
+
+#Layer2{
+    position:absolute;
+    display: flex;
+    flex-direction: row;
+    margin-top: 232px;
+    border: #EDEDED;
+    border-radius: 10px;
+    border-width: 1px;
+    height: 113px;
+    width: 1160px;
+    border-style: solid;
+}
+
+.textLayer2{
+    border: none;
+    height: 45px;
+    margin-top: 15px;
+    font-size: 40pX;
+    font-weight: bolder;
+
+}
+
+.InputType1{
+    width: 300px;
+    border-right: solid;
+    border-color: #E5E5E5;
+    border-width: 1px;
+    margin-left: 25px;
+    margin-top: 15px;
+    color: #595A5B;
+}
+
+#RoundArrow{
+    background-color: white;
+    border: white;
+    position: absolute;
+    margin-top: 270px;
+    margin-right: 565px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 30px #E1ECF6
+}
+
+#RoundArrowText{
+    font-size: large;
+    color: #075BF3;
+}
+
+.InputType2{
+    width: 157px;
+    border-right: solid;
+    border-color: #E5E5E5;
+    border-width: 1px;
+    margin-left: 13px;
+    margin-top: 15px;
+    color: #595A5B;
+}
+
+#InputType3{
+    width: 210px;
+    margin-top: 15px;
+    margin-left: 20px;
+    color: #595A5B;
+}
+
+.FromToText{
+    width: 200px;
+}
+
+.DepRetText{
+    width: 127px;
+}
+
+#TravText{
+    width:180px;
+}
+
+#Layer3{
+    position: absolute;
+    align-self: flex-start;
+    display: flex;
+    margin-top: 365px;
+    margin-left: 188px;
+    gap: 8px;
+}
+
+#SpecialFare{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    gap:4px;
+}
+
+#GreenGradientT{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right,#43E1A8, #219393);
+    color: white;
+    border-radius: 4px;
+    height: 20px;
+}
+
+.Layer3Radio{
+    display: flex;
+    gap:10px;
+    height: 54px;
+    border-style: solid;
+    border-color: #E5E5E5;
+    border-radius: 4px;
+    border-width: 1px;
+    justify-content: center;
+    align-items: center;
+}
+
+.radiohead{
+    height: 17px;
+    width: 18px;
+    margin-left: 13px;
+    margin-bottom: 25px;
+}
+
+.radiotext1
+{
+    color: #4A4A4A;
+    font-weight: bolder;
+    margin-bottom: 5px;
+    margin-right: 15px;
+}
+
+.radiotext2{
+    color: #B1B1B1;
+    font-size: small;
+    margin-right: 15px;
+}
+
+#SearchUSEBUTTON{
+    position: absolute;
+    margin-top: 439px;
+    width: 216px;
+    height: 48px;
+    border-radius: 20px;
+    border: none;
+    background-image: linear-gradient(to right, #52B1FE, #075BF3);
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+}
